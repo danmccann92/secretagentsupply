@@ -59,6 +59,9 @@ html {
   padding-top: 1.75rem;
   font-size: .75rem;
 }
+.nav-mobile {
+  display: none;
+}
 
 .container_merch {
   /*display: flex;
@@ -113,4 +116,75 @@ footer {
   color: white;
   height: 3rem;
   padding-top: .75rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container_main {
+    max-width:100%;
+  }
+  .nav {
+    display: none;
+  }
+  .nav-mobile {
+    display: block;
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin: 0 auto;
+    height: 1.55rem;
+    padding-top: .65rem;
+  }
+  .nav-mobile span {
+    background-color: red;
+    color: white;
+    margin: 0 auto;
+    padding-top: .65rem;
+  }
+  .container_merch {
+    max-width: 100%;
+    margin-left: 3rem;
+  }
+  .merchandise {
+    margin: 0 2rem;
+    display: inline-block;
+    overflow: hidden;
+  }
+  #glasses {
+    display: none;
+  }
+  .container-info {
+    max-width: 100%
+  }
+  footer {
+    height: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .merch-img img{
+    width: 175px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+.container_main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+  .logo {
+    margin: 0 auto;
+  }
+  .logo img {
+    margin: 0 auto;
+  }
+  .logo span {
+    display: none;
+  }
+  #watch {
+    display: none;
+  }
+  .info {
+    display: block;
+  }
 }
