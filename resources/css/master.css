@@ -1,0 +1,116 @@
+html {
+  font-size: 16px;
+}
+.container_top {
+
+}
+.logo {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  margin-left: 5rem;
+  max-height: 40%;
+  margin-right: .35rem;
+}
+.logo span {
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+}
+.container-img {
+  max-width: 100%;
+  max-height: 50rem;
+  min-height: 25rem;
+  background-image: url(../media/moto.jpeg);
+  background-size: cover;
+  background-position: bottom;
+  margin: 0 auto;
+  padding-top: .125rem;
+  /*position: absolute;*/
+}
+.new {
+  height: 8rem;
+  width: 14rem;
+  background-color: black;
+  color: white;
+  margin-left: 15%;
+  margin-top: 2rem;
+
+  /*position: absolute;
+  top: 4rem;*/
+}
+.new h3, h1 {
+  text-transform: uppercase;
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+.nav {
+  background-color: red;
+  color: white;
+  margin: 0 auto;
+  height: 1.75rem;
+  padding-top: .65rem;
+}
+.nav span {
+  margin-left: 8rem;
+  padding-top: 1.75rem;
+  font-size: .75rem;
+}
+
+.container_merch {
+  /*display: flex;
+  flex-direction: row;
+  align-content: space-around;*/
+  margin: 2rem auto;
+  width: 900px;
+}
+.merchandise {
+  display: inline-block;
+  border: .25rem solid black;
+  margin-left: 1.25rem;
+}
+.merch-img img {
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
+}
+.text-content {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: .225rem .35rem;
+  font-size: .95rem;
+}
+.container-info {
+  width: 900px;
+  margin: 1.5rem auto;
+}
+.info {
+  display: inline-block;
+  margin-left: 2.5rem;
+  width: 250px;
+  height: auto;
+}
+.infotop {
+  height: 50%
+  color: white;
+  background-color: black;
+  padding: .75rem 0;
+
+}
+.infotop span {
+  color: white;
+  padding: .65rem;
+}
+.infobottom {
+  padding: .75rem 0;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 3rem;
+  padding-top: .75rem;
+}
